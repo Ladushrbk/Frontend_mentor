@@ -1,0 +1,223 @@
+body {
+    margin-left: 19%;
+    background: var(--Very-Light-blue, #ECF2FF);
+    margin-top: 10%;
+    font-family: Hanken Grotesk;
+}
+
+.blue {
+    width: 368px;
+    height: 512px;
+    background: var(--Gradient-1, linear-gradient(180deg, #75F 0%, #6943FF 0.01%, #2F2CE9 100%));
+    border-radius: 32px;
+    text-align: center;
+    flex-shrink: 0;
+    position: absolute;
+    z-index: 2;
+    margin-right: 366px;
+}
+
+.circle {
+    width: 200px;
+    height: 200px;
+    border-radius: 180px;
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+    background: var(--Gradient-2, linear-gradient(180deg, #4D21C9 0%, rgba(37, 33, 201, 0.00) 100%, rgba(37, 33, 201, 0.00) 100%));
+    margin-top: 35px;
+    flex-shrink: 0;
+    
+}
+
+.white{
+    background-color: white;
+    width: 736px;
+    height: 512px;
+    box-shadow: 0px 30px 60px 0px #3D6CEC26;
+    flex-shrink: 0;
+    border-radius: 32px;
+}
+
+.white h1 {
+    margin-left: 410px;
+    margin-top: 70px;
+}
+
+#total_result {
+    color: var(--White, #FFF);
+    font-size: 72px;
+    font-weight: 800;
+    margin-top: 35px;
+    text-align: center;
+    padding-top: 55px;
+    line-height: 72px;
+    
+}
+
+#summary {
+    margin-left: 410px;
+    font-size: 24px;
+}
+
+#result {
+    font-size: 24px;
+    font-weight: 700;
+    line-height: 31.27px;
+    color: var(--Light-Blue, #CAC9FF);
+    margin-top: 70px;
+    text-align: center;
+    
+}
+#optional_result {
+    font-size: 18px;
+    line-height: 23.45px;
+    font-weight: 700;
+    color: var(--Light-Blue, #CAC9FF);
+    text-align: center;
+    opacity: 0.5168;
+    margin-top: -70px;
+}
+
+.text_result {
+    text-align: center;
+    line-height: 41.7px;
+    font-size: 32px;
+    font-weight: 700;
+    color: var(--White, #FFF);
+}
+
+#explanation_result {
+    text-align: center;
+    line-height: 23.45px;
+    font-size: 18px;
+    font-weight: 500;
+    color: var(--Light-Blue, #CAC9FF);
+    top: 56px;
+    margin-top: -14px;
+}
+
+#button{
+    width: 288px;
+    height: 56px;
+    border-radius: 128px;
+    text-align: center;
+    color: #FFF;
+    background: var(--Dark-Navy, #303B59);
+    border: transparent;
+    font-size: 18px;
+    margin-top: 30px;
+    cursor: pointer;
+}
+
+#button:hover {
+    background-color: #1125D6;
+    color: white;
+}
+
+
+.boxes{
+    margin-left: 410px;
+    padding-top: px;
+
+
+}
+
+.reaction {
+    background: var(--red-95-white, linear-gradient(0deg, rgba(255, 255, 255, 0.95) 0%, rgba(255, 255, 255, 0.95) 100%), #F55);
+    border-radius: 12px;
+    width: 288px;
+    height: 56px;
+    display: flex;
+    justify-content: space-between;
+    color: var(--Red, #F55);
+    margin-bottom: 10px;
+
+}
+
+.memory{
+    background: var(--yellow-95-white, linear-gradient(0deg, rgba(255, 255, 255, 0.95) 0%, rgba(255, 255, 255, 0.95) 100%), #FFB21E);
+    border-radius: 12px;
+    width: 288px;
+    height: 56px;
+    display: flex;
+    justify-content: space-between;
+    color: var(--Yellow, #FFB21E);
+    margin-bottom: 10px;
+}
+
+.verbal {
+    background: var(--green-95-white, linear-gradient(0deg, rgba(255, 255, 255, 0.95) 0%, rgba(255, 255, 255, 0.95) 100%), #00BB8F);
+    width: 288px;
+    height: 56px;
+    border-radius: 12px;
+    display: flex;
+    justify-content: space-between;
+    color: var(--Green, #00BB8F);
+    margin-bottom: 10px;
+}
+
+.visual {
+    background: var(--blue-95-white, linear-gradient(0deg, rgba(255, 255, 255, 0.95) 0%, rgba(255, 255, 255, 0.95) 100%), #1125D6);
+    width: 288px;
+    height: 56px;
+    display: flex;
+    border-radius: 12px;
+    justify-content: space-between;
+    color: var(--Blue, #1125D6);
+}
+
+svg {
+    margin-top: 15px;
+    margin-left: 15px;
+}
+
+h2 {
+    margin-top: 12px;
+    margin-right: 35px;
+    font-size: 18px;
+}
+
+.boxes p {
+    color: gray;
+    padding-right: 10px;
+}
+
+h3 {
+    margin-left: 410px;
+    display: flex;
+    padding: 0;
+    padding-top: 70px;
+    font-size: 24px;
+    text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    color: var(--Dark-Navy, #303B59);
+}
+
+
+@media only screen and (max-width: 390px) {
+    .white {
+        width: 368px;
+        height: 512px;
+        margin-top: 512px;
+        z-index: 1;
+    }
+
+    body {
+        display: flex;
+        margin: auto;
+    }
+    
+    .boxes {
+        margin-right: 200px;
+        position: absolute;
+        left: -365px;
+        top: 600px;
+        z-index: 2;
+    }
+
+    h3 {
+        position: absolute;
+        left: -295px;
+        padding-top: 10px;
+    }
+}
